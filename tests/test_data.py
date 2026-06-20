@@ -1,6 +1,6 @@
 import numpy as np
 import pytest
-from smartrevuer.data import DataBundle, load_and_split
+from smartrevuer.data import load_and_split
 
 
 @pytest.fixture(scope="module")

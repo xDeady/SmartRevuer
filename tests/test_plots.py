@@ -1,7 +1,5 @@
 # tests/test_plots.py
-import numpy as np
 import pytest
-from pathlib import Path
 from smartrevuer.data import load_and_split
 from smartrevuer.model import train
 from smartrevuer.plots import save_all_plots

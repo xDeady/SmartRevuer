@@ -5,7 +5,7 @@ import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
-from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
+from matplotlib.patches import FancyBboxPatch
 from sklearn.metrics import confusion_matrix
 
 from smartrevuer.config import OUTPUT_DIRS, PLOT_FILENAMES

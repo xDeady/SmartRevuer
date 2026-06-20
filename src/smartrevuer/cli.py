@@ -1,6 +1,5 @@
 # src/smartrevuer/cli.py
 import sys
-from collections import Counter
 
 import numpy as np
 from sklearn.metrics import confusion_matrix
@@ -10,7 +9,6 @@ from smartrevuer.config import (
     ANSI_GREEN,
     ANSI_GREY,
     ANSI_RED,
-    ANSI_RESET,
     ANSI_YELLOW,
 )
 from smartrevuer.data import DataBundle, load_and_split

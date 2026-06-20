@@ -1,7 +1,6 @@
 import numpy as np
-import pytest
 from smartrevuer.visualization import ascii_digit, color, progress_bar, section_header
-from smartrevuer.config import ANSI_GREEN, ANSI_RESET, ANSI_BOLD
+from smartrevuer.config import ANSI_GREEN, ANSI_RESET
 
 
 def test_ascii_digit_shape():

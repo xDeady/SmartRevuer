@@ -1,8 +1,7 @@
 # tests/test_model.py
-import numpy as np
 import pytest
 from smartrevuer.data import load_and_split
-from smartrevuer.model import ModelResult, train
+from smartrevuer.model import train
 
 
 @pytest.fixture(scope="module")
