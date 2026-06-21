@@ -117,8 +117,7 @@ def _plot_accuracy_per_digit(data: DataBundle, result: ModelResult, path: Path) 
     ax.set_xlabel("Точность (%)", fontsize=12)
     ax.set_title("Точность ИИ по каждой цифре", fontsize=14, fontweight="bold")
     ax.set_xlim(0, 105)
-    ax.axvline(x=80, color="gray", linestyle="--", alpha=0.5, label="Минимум 80%")
-    ax.legend(fontsize=10)
+    ax.axvline(x=80, color="gray", linestyle="--", alpha=0.5)
 
     for bar, acc in zip(bars, accs):
         ax.text(

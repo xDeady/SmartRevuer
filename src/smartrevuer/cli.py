@@ -150,7 +150,7 @@ def _print_step5(paths: list) -> None:
     for p in paths:
         print(f"  {color('✅', ANSI_GREEN)} {p}")
     print()
-    print(color("4 графика сохранены! Можно показать на уроке.", ANSI_GREY))
+    print(color(f"{len(paths)} графика сохранены! Можно показать на уроке.", ANSI_GREY))
     print()
 
 

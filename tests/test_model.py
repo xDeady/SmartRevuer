@@ -27,8 +27,7 @@ def test_test_accuracy_above_80pct(result):
 
 
 def test_y_pred_shape(result, data):
-    loaded = load_and_split()
-    assert result.y_pred.shape == (len(loaded.y_test),)
+    assert result.y_pred.shape == (len(data.y_test),)
 
 
 def test_y_pred_values_in_range(result):
